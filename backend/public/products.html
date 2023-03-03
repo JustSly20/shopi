@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cart</title>
+    <title>products</title>
 
     <!-- font awesome cdn link  -->
     <link
@@ -25,7 +25,9 @@
     <!-- header section starts  -->
 
     <header class="header">
-      <a href="home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
+      <a href="index.html" class="logo">
+        <i class="fas fa-store"></i> shopie
+      </a>
 
       <form action="" class="search-form">
         <input type="search" id="search-box" placeholder="search here..." />
@@ -38,7 +40,7 @@
         <a href="login.html" class="fas fa-user"></a>
         <a href="#" class="fas fa-heart"></a>
         <a href="cart.html" class="fas fa-shopping-cart"
-          ><span class="cart-span"></span
+          ><span class="cart-span"></span><span class="cart-span"></span
         ></a>
       </div>
     </header>
@@ -57,7 +59,7 @@
       </div>
 
       <nav class="navbar">
-        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="index.html"> <i class="fas fa-angle-right"></i> home </a>
         <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
         <a href="products.html">
           <i class="fas fa-angle-right"></i> products
@@ -73,27 +75,103 @@
 
     <!-- side-bar section ends -->
 
-    <!-- shopping cart section starts  -->
+    <!-- category section starts  -->
 
-    <section class="shopping-cart">
-      <h1 class="heading">your <span>products</span></h1>
+    <section class="category">
+      <h1 class="heading">shop by <span>category</span></h1>
 
-      <div class="box-container"></div>
+      <div class="box-container">
+        <a class="box" data-id="television">
+          <img src="images/cat_img1.png" alt="" />
+          <h3>televisions</h3>
+        </a>
 
-      <div class="cart-total">
-        <a href="#" class="btn">proceed to checkout</a>
+        <a class="box" data-id="smartphone">
+          <img src="images/cat_img2.png" alt="" />
+          <h3>smartphones</h3>
+        </a>
+
+        <a class="box" data-id="headphone">
+          <img src="images/cat_img3.png" alt="" />
+          <h3>headphones</h3>
+        </a>
+
+        <a class="box" data-id="smartwatch">
+          <img src="images/cat_img4.png" alt="" />
+          <h3>smartwatches</h3>
+        </a>
+
+        <a class="box" data-id="game">
+          <img src="images/cat_img5.png" alt="" />
+          <h3>games</h3>
+        </a>
+
+        <a class="box" data-id="camera">
+          <img src="images/cat_img6.png" alt="" />
+          <h3>cameras</h3>
+        </a>
+
+        <a class="box" data-id="speaker">
+          <img src="images/cat_img7.png" alt="" />
+          <h3>speakers</h3>
+        </a>
+
+        <a class="box" data-id="laptop">
+          <img src="images/cat_img8.png" alt="" />
+          <h3>laptops</h3>
+        </a>
       </div>
     </section>
 
-    <!-- shopping cart section ends -->
+    <!-- category section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products">
+      <h1 class="heading">featured <span>products</span></h1>
+
+      <div class="box-container"></div>
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- product banner section starts  -->
+
+    <section class="product-banner">
+      <h1 class="heading"><span>deal</span> of the day</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/product-banner-1.jpg" alt="" />
+          <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-banner-2.jpg" alt="" />
+          <div class="content">
+            <span>special offer</span>
+            <h3>upto 50% off</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- product banner section ends -->
 
     <!-- footer section starts  -->
 
     <section class="quick-links">
-      <a href="home.html" class="logo"> <i class="fas fa-store"></i> shopie </a>
+      <a href="index.html" class="logo">
+        <i class="fas fa-store"></i> shopie
+      </a>
 
       <div class="links">
-        <a href="home.html"> home </a>
+        <a href="index.html"> home </a>
         <a href="about.html"> about </a>
         <a href="products.html"> products </a>
         <a href="contact.html"> contact </a>

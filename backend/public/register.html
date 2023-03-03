@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login</title>
+    <title>register</title>
 
     <!-- font awesome cdn link  -->
     <link
@@ -42,7 +42,7 @@
       </div>
 
       <nav class="navbar">
-        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="index.html"> <i class="fas fa-angle-right"></i> home </a>
         <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
         <a href="products.html">
           <i class="fas fa-angle-right"></i> products
@@ -58,41 +58,54 @@
 
     <!-- side-bar section ends -->
 
-    <!-- login form section starts  -->
+    <!-- side-bar section ends -->
 
-    <section class="login">
-      <form action="">
-        <h3>login now</h3>
+    <!-- register form section starts  -->
+
+    <section class="register">
+      <form class="reg-form">
+        <h3>register now</h3>
+        <input
+          type="text"
+          name=""
+          placeholder="enter your name"
+          id="name"
+          class="box"
+        />
         <input
           type="email"
           name=""
           placeholder="enter your email"
-          id=""
+          id="email"
           class="box"
         />
         <input
           type="password"
           name=""
           placeholder="enter your password"
-          id=""
+          id="pwd"
           class="box"
         />
-        <div class="remember">
-          <input type="checkbox" name="" id="remember-me" />
-          <label for="remember-me"> remember me </label>
-        </div>
-        <input type="submit" value="login now" class="btn" />
-        <p>don't have an account?</p>
-        <a href="register.html" class="btn link">register now</a>
+        <input
+          type="password"
+          name=""
+          placeholder="re-enter your password"
+          id="conf-pwd"
+          class="box"
+        />
+        <input type="submit" value="register now" class="btn" />
+        <p>already have an account?</p>
+        <a href="login.html" class="btn link">login now</a>
       </form>
     </section>
 
-    <!-- login form section ends  -->
+    <!-- register form section ends  -->
 
     <!-- footer section starts  -->
 
     <section class="quick-links">
       <a class="logo"> <i class="fas fa-store"></i> shopie </a>
+      <!--  -->
 
       <div class="share">
         <a href="#" class="fab fa-facebook-f"></a>
