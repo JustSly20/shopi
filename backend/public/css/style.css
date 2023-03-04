@@ -667,6 +667,7 @@ section {
 }
 
 .products .box-container .box .image .icons a {
+  cursor: pointer;
   display: block;
   margin-top: 1rem;
   height: 4.5rem;
